@@ -164,7 +164,6 @@ export default function App() {
                     prev.includes(model)
                       ? prev.filter((m) => m !== model)
                       : [...prev, model]
-    </>
   );
                 }
               />
