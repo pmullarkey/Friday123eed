@@ -196,6 +196,8 @@ export default function App() {
         >
           Apply Selection
         </button>
+          Apply Selection
+        </button>
       </div>
 
         <>
