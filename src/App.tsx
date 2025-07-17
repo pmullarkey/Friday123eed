@@ -187,9 +187,6 @@ export default function App() {
             </p>
           )}
         </div>
-      )}
-  </div>
-)}
 
 
         <button
@@ -201,12 +198,14 @@ export default function App() {
         </button>
       </div>
 
-      {/* Main Assessment UI */}
+        <>
+        {/* Main Assessment UI */}
       {activeModels && !showResults && (
         <>
           <div className="space-y-6 max-h-[65vh] overflow-y-auto pr-2">
             {filteredQuestions.map((q) => (
               <div key={q.id}>
+        </>
                 <p className="font-medium">{q.text}</p>
                 <div className="flex gap-4 mt-2">
                   {[1, 2, 3, 4, 5].map((val) => (
