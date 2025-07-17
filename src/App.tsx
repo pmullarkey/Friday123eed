@@ -71,7 +71,6 @@ export default function App() {
       case "pie":
   return (
     <>
-      {/* Model Selection UI */}
       {!activeModels && (
         <div className="p-4">
           <h1 className="text-2xl font-bold mb-4">Select Leadership Models</h1>
@@ -99,7 +98,6 @@ export default function App() {
         </div>
       )}
 
-      {/* Main Assessment UI */}
       {activeModels && !showResults && (
         <div className="p-4">
           <h1 className="text-2xl font-bold mb-4">Leadership Assessment</h1>
@@ -121,7 +119,6 @@ export default function App() {
         </div>
       )}
 
-      {/* Results Display */}
       {showResults && (
         <div className="p-4">
           <h2 className="text-xl font-bold text-monumentBlue mb-4">Your Leadership Scores</h2>
